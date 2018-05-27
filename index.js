@@ -6,4 +6,10 @@ function takeANumber(line, newCustomer) {
   return `Welcome, ${newCustomer}. You are number ${position} in line.`
 }
 
-function
+function nowServing(line) {
+  if (line.length === 0) {
+    return "There is nobody waiting to be served!";
+  } else {
+  return line.shift();
+  }
+}
