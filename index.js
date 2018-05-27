@@ -16,7 +16,7 @@ function nowServing(line) {
 }
 
 function currentLine(line) {
-  announcement = "The line is currently ";
+  var announcement = "The line is currently ";
   if (line.length === 0) {
     announcement += " empty.";
   }
