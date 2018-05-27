@@ -18,11 +18,11 @@ function nowServing(line) {
 function currentLine(line) {
   var announcement = "The line is currently ";
   if (line.length === 0) {
-    announcement += " empty.";
+    announcement += "empty.";
   }
   else {
     announcement += ": "
-    for (i=0; i<line.length; i++) {
+    for (let i=0; i<line.length; i++) {
       announcement += `${i}. ${line[i]}`
       if (i<line.length - 1) {
         announcement += ", "
