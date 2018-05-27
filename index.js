@@ -5,3 +5,5 @@ function takeANumber(line, newCustomer) {
   var position = line.length
   return `Welcome, ${newCustomer}. You are number ${position} in line.`
 }
+
+function
