@@ -21,7 +21,7 @@ function currentLine(line) {
     announcement += " empty.";
   }
   else {
-    announcment += ": "
+    announcement += ": "
     for (i=0; i<line.length; i++) {
       announcement += `${i}. ${line[i]}`
       if (i<line.length - 1) {
