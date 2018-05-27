@@ -23,7 +23,10 @@ function currentLine(line) {
   else {
     announcment += ": "
     for (i=0; i<line.length; i++) {
-      announcement += `${
+      announcement += `${i}. ${line[i]}`
+      if (i<line.length - 1) {
+        announcement += ", "
+      }
     }
   }
   return announcement
