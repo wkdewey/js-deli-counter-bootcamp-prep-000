@@ -14,3 +14,17 @@ function nowServing(line) {
   return `Currently serving ${name}.`;
   }
 }
+
+function currentLine(line) {
+  announcement = "The line is currently ";
+  if (line.length === 0) {
+    announcement += " empty.";
+  }
+  else {
+    announcment += ": "
+    for (i=0; i<line.length; i++) {
+      announcement += `${
+    }
+  }
+  return announcement
+}
